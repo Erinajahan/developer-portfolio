@@ -12,7 +12,7 @@ h3{
 .orange-color{
     color: olive;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,5 +44,29 @@ p{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right ;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    border-radius: 20px;
+    margin-right: 5% ;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:10px 10px 40px gray ;
+    
+}
+#full-stack-developer{
+    border-left: 10px solid olivedrab;
+}
+#junior-web-developer{
+    border-left: 10px solid brown;
+}
+footer p{
+    text-align: center;
 }
